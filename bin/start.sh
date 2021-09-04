@@ -7,8 +7,8 @@ install_opendax() {
   sudo -u deploy bash <<EOS
   cd /home/deploy
   source /home/deploy/.rvm/scripts/rvm
-  rvm install --quiet-curl 2.6.1
-  rvm use --default 2.6.1
+  rvm install --quiet-curl 2.7.2
+  rvm use --default 2.7.2
   gem install bundler
 
 
